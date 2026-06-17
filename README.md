@@ -1,6 +1,6 @@
 # actually.me
 
-A social media REST API built with Express and TypeScript.
+A REST API server built with Express and TypeScript.
 
 ## Tech Stack
 
