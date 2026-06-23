@@ -1,4 +1,4 @@
-# actually.me
+# actually.mi
 
 A REST API server built with Express and TypeScript.
 
