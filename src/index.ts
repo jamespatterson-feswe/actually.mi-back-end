@@ -13,8 +13,10 @@ const PORT = process.env.PORT || 8080;
 server.use(cors());
 server.use(express.json());
 
+/** Authentication flows | register */
 server.use('/auth', authRoutes);
 
+/** Health check for testing purposes */
 server.get('/health', (req, res) => {
   res.json({ status: 200, statusDesc: 'Server is healthy and running correctly.' });
 });
