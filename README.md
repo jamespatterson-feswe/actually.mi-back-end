@@ -25,3 +25,9 @@ npm run start:dev
 
 ### Build for production
 npm run start:prod
+
+### Run Jest tests
+npm run test
+
+### Run Jest tests with code coverage
+npm run test:coverage
