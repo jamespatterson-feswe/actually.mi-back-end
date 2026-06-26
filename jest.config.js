@@ -11,5 +11,6 @@ module.exports = {
     'src/**/*.ts',
     '!src/**/*.spec.ts',
     '!src/lib/prisma.ts',
+    '!src/index.ts',
   ],
 };
