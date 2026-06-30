@@ -13,4 +13,5 @@ module.exports = {
     '!src/lib/prisma.ts',
     '!src/index.ts',
   ],
+  setupFiles: ['<rootDir>/jest.setup.js'],
 };
