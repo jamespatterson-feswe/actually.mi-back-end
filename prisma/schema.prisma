@@ -12,6 +12,7 @@ model User {
   username  String   @unique
   email     String   @unique
   password  String
+  birthDate DateTime?
   bio       String?
   avatar    String?
   createdAt DateTime @default(now())

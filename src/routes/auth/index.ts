@@ -7,8 +7,8 @@ import register from './register/register.routes';
 
 const router = Router();
 
-router.use(paths.mi, mi);
 router.use(paths.login, login);
+router.use(paths.mi, mi);
 router.use(paths.register, register);
 
 export default router;
